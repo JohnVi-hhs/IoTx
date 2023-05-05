@@ -1,0 +1,5 @@
+mbedFFT/.build
+mbedFFT/.mbed
+mbedFFT/projectfiles
+mbedFFT/*.py*
+mbedFFT/BUILD
