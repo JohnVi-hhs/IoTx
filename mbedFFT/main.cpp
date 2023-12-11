@@ -72,8 +72,8 @@ void sinus()
             arm_cfft_radix4_f32(&fft_inst, samples2);
             printf("einde ronde\n");
             for (int i = 1; i < 127; i++) { // print only first half, the others are imaginary
-                printf("%.3f\t%.3f\t%.3f\t", 30 + signaal1rij[i], 50 + signaal2rij[i],buf[i]);
-                printf("%f\t%f\t",100+freqDomain[i],100 +freqDomain2[i]);
+                printf("%.3f\t%.3f\t%.3f\t", 3 + signaal1rij[i], 5 + signaal2rij[i],buf[i]);
+                printf("%f\t%f\t",freqDomain[i],freqDomain2[i]);
                 printf("%f\n",samples2[2 * i]);
             }
         
